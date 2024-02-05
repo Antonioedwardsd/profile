@@ -1,0 +1,52 @@
+h1 {
+  color: #EEEDEB;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+img {
+  border-radius: 5px;
+  width: 150px;
+}
+
+html,body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.7em;
+  margin-top: auto;
+  padding: 20px;
+  color: #f5f5f5;
+  background-color: #333;
+}
+
+a.link {
+  color: #f7c08a;
+  text-decoration: none;
+}
+
+li a:hover {
+ color: #fff;
+}
+
+.container {
+  background-color: #3C3633;
+  padding: 20px;
+}
+
+@media only screen and (max-width:800px) {
+  /*tablets */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
